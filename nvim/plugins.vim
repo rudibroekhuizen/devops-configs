@@ -16,5 +16,11 @@ Plug 'flazz/vim-colorschemes'
 " Completion
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --all' }
 
+" Puppet
+Plug 'rodjek/vim-puppet'
+
+" Dockerfile
+Plug 'ekalinin/Dockerfile.vim'
+
 " Initialize plugin system
 call plug#end()
