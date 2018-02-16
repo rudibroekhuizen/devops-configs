@@ -59,10 +59,10 @@ source $HOME/.config/nvim/finding.vim
 " Shortcuts
     " Habit breaking, habit making:
     " Disable those arrow keys
-    noremap <Up> <NOP>
-    noremap <Down> <NOP>
-    noremap <Left> <NOP>
-    noremap <Right> <NOP>
+    "noremap <Up> <NOP>
+    "noremap <Down> <NOP>
+    "noremap <Left> <NOP>
+    "noremap <Right> <NOP>
 
     " Map leader
     let mapleader = " "
