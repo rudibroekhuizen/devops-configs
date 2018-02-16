@@ -101,6 +101,18 @@ source $HOME/.config/nvim/finding.vim
     " nnoremap <silent><A-j> :set paste<CR>m`o<Esc>``:set nopaste<CR>
     " nnoremap <silent><A-k> :set paste<CR>m`O<Esc>``:set nopaste<CR>
 
+    " " Copy to clipboard
+    vnoremap <leader>y "+y
+    nnoremap <leader>Y "+yg_
+    nnoremap <leader>y "+y
+    nnoremap <leader>yy "+yy
+
+    " " Paste from clipboard
+    nnoremap <leader>p "+p
+    nnoremap <leader>P "+P
+    vnoremap <leader>p "+p
+    vnoremap <leader>P "+P
+
 " Splitting
     set splitbelow          " Horizontal split below current.
     set splitright          " Vertical split to right of current.
