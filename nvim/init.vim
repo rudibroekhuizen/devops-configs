@@ -23,7 +23,7 @@ source $HOME/.config/nvim/finding.vim
     set showmatch           " Show matching brackets.
     set relativenumber      " Show the line numbers on the left side relative to current line
     set ruler
-    "set number              " Show number ruler
+    set number              " Show number ruler
     set cursorline          " Highlight the current line for the cursor
     " set lazyredraw          " Keep scrolling speedy
     set formatoptions+=o    " Continue comment marker in new lines.
